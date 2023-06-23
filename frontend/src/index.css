@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (min-width: 768px) {
+  input:focus+label,
+  input:not(:placeholder-shown)+label {
+    opacity: 1;
+    background-color: #fff;
+    padding: 4px;
+    font-weight: 600;
+    transform: scale(0.75) translateY(-65%) translateX(-2px);
+  }
+}
