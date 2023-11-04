@@ -12,6 +12,9 @@ const Navbar = () => {
             ADDR-CHECKR
           </Link>
 
+          <Link to={'/privacy-policy'} className="font-semibold md:text-lg text-blue_deep">
+            Privacy Policy</Link>
+
           {
             pathname == '/' && <DownloadBtn />
           }
