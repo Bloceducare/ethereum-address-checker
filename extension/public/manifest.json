@@ -1,0 +1,16 @@
+{
+  "name": "Ethereum Address Checker",
+  "version": "1.0.1",
+  "description": "Check Ethereum address type with ease.",
+  "manifest_version": 3,
+  "author": "developerlongs@gmail.com, aabiodunawoyemi@gmail.com",
+  "action": {
+    "default_title": "Ethereum Address Checker",
+    "default_popup": "index.html",
+    "default_icon": "ea.png"
+  },
+  "icons": {
+    "16": "ea.png",
+    "32": "ea.png"
+  }
+}
