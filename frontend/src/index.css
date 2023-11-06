@@ -16,6 +16,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+
   input:focus+label,
   input:not(:placeholder-shown)+label {
     opacity: 1;
